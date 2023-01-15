@@ -1,0 +1,102 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/background.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    color: aliceblue;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-family: 'Pacifico', cursive; color: white;
+}
+
+.hero_subtitle {   
+    font-size: 4.5rem;
+    color: aliceblue;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-family:'Montserrat', 'Mplus 1p', 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', '游ゴシック' , '游ゴシック体' , YuGothic , 'Yu Gothic', 'ＭＳ ゴシック' , 'MS Gothic', sans-serif, cursive; color: white;
+}  
+    
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: Black;
+}
+/* Styling for About Section */
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #683aa4;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section p{
+    font-size: 21px;
+    font-weight: 300;
+}
+
+div.col {
+    text-align: center;
+}
+
+
+button{
+    max-width: 50%;
+    border-radius: 50px !important;
+}
+
+#about .col{
+    justify-content: center;
+    flex-direction: column;
+    display: table-column-group;
+}
+
+#about .img-col{
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#about img{
+    max-width: 60%;
+    width: 90%;
+}
+
+#profile-photo {
+    border-radius: 26%;
+    min-width: 360px;
+    height: 500px;
+    margin-top: 16px;
+}
+
+/* Styling for the cards */
+#work .card{
+    box-shadow: 11px 7px 16px #f9f9f9;
+    border: 0;
+    text-align: center;
+}
+
+ #work .cards .card{
+    width: 18rem;
+}
+
+/* Styling for icon*/
+#work .icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
